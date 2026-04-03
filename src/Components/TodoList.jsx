@@ -19,7 +19,7 @@ const TodoList = () => {
     // line 22: Checks if the headingInput variable, a piece of text input
     // from the user, is empty after trimming any whitespace characters
     // from the beginning and end.
-    if (headingInput.trim() !== '') {
+    if (headingInput.trim() !== "") {
       // Line 29: If the condition in the if statement is met,
       // this line updates the state variable todos.
       // It spreads the existing array (todos) into a new array
